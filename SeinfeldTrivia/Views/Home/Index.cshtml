@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/_Layout.cshtml";
+    }
+<div class="search-box" >
+	<img src="/content/img/Seinfeld.png" >
+    @using (Html.BeginForm("IndexPost","Home")) { 
+    <label for="username" >Username</label>
+        <input type="text" name="username" id="username" />
+        <input type="submit" />
+    }
+      </div>

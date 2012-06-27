@@ -1,0 +1,25 @@
+.title{ 
+margin-top: 70px;
+}
+.image-character{
+	margin-top: 70px;
+	width:300px;
+	border-radius: 15px;
+
+}
+
+.container-content{
+	width:80% !important;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:60px;
+	background-color:white;
+	border: 1px solid rgba(128, 128, 128, 0.4);
+box-shadow: 0 0 35px 5px black;
+border-radius: 15px;
+
+}
+.container-body{
+	background: grey;
+background-size: cover;
+}

@@ -1,0 +1,22 @@
+﻿@model SeinfeldTrivia.ViewModels.TriviaViewModel
+@{
+    ViewBag.Title = "Seinfeld Trivia";
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+@Model.CurrentUser.Username
+    <div id="myCarousel" class="carousel slide">
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="active item carousel-item span4 offset 4"></div>
+    @foreach (var q in Model.CurrentGame.GameQuestions) { 
+     <div class="item carousel-item"><p>@q.Question.Text</p>
+    </div>
+    }
+   
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+ 
