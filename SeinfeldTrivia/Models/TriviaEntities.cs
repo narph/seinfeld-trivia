@@ -26,6 +26,7 @@ using System.Runtime.Serialization;
 
 #endregion
 
+
 namespace SeinfeldTrivia.Models
 {
     #region Contexts
@@ -171,6 +172,7 @@ namespace SeinfeldTrivia.Models
         private ObjectSet<GameQuestion> _GameQuestions;
 
         #endregion
+
         #region AddTo Methods
     
         /// <summary>
@@ -222,10 +224,12 @@ namespace SeinfeldTrivia.Models
         }
 
         #endregion
+
     }
     
 
     #endregion
+
     
     #region Entities
     
@@ -257,6 +261,7 @@ namespace SeinfeldTrivia.Models
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -359,6 +364,7 @@ namespace SeinfeldTrivia.Models
         partial void OnIsCorrectChanged();
 
         #endregion
+
     
         #region Navigation Properties
     
@@ -423,6 +429,7 @@ namespace SeinfeldTrivia.Models
         }
 
         #endregion
+
     }
     
     /// <summary>
@@ -449,6 +456,7 @@ namespace SeinfeldTrivia.Models
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -527,6 +535,7 @@ namespace SeinfeldTrivia.Models
         partial void OnResultChanged();
 
         #endregion
+
     
         #region Navigation Properties
     
@@ -591,6 +600,7 @@ namespace SeinfeldTrivia.Models
         }
 
         #endregion
+
     }
     
     /// <summary>
@@ -619,6 +629,7 @@ namespace SeinfeldTrivia.Models
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -721,6 +732,7 @@ namespace SeinfeldTrivia.Models
         partial void OnAnswerIDChanged();
 
         #endregion
+
     
         #region Navigation Properties
     
@@ -839,6 +851,7 @@ namespace SeinfeldTrivia.Models
         }
 
         #endregion
+
     }
     
     /// <summary>
@@ -865,6 +878,7 @@ namespace SeinfeldTrivia.Models
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -919,6 +933,7 @@ namespace SeinfeldTrivia.Models
         partial void OnTextChanged();
 
         #endregion
+
     
         #region Navigation Properties
     
@@ -967,6 +982,7 @@ namespace SeinfeldTrivia.Models
         }
 
         #endregion
+
     }
     
     /// <summary>
@@ -995,6 +1011,7 @@ namespace SeinfeldTrivia.Models
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -1121,6 +1138,7 @@ namespace SeinfeldTrivia.Models
         partial void OndefinitionChanged();
 
         #endregion
+
     
     }
     
@@ -1148,6 +1166,7 @@ namespace SeinfeldTrivia.Models
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -1226,6 +1245,7 @@ namespace SeinfeldTrivia.Models
         partial void OnPasswordChanged();
 
         #endregion
+
     
         #region Navigation Properties
     
@@ -1252,8 +1272,10 @@ namespace SeinfeldTrivia.Models
         }
 
         #endregion
+
     }
 
     #endregion
+
     
 }
